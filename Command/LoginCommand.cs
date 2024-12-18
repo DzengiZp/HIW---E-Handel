@@ -1,22 +1,26 @@
 class LoginCommand : Command
 {
-    static string email = "";
-    static string password = "";
-
     public LoginCommand()
-        : base(1, "Login", "Description: Login with username and password") { }
+        : base(2, "Login", "Description: Login with username and password") { }
 
     public override void Execute()
     {
+        Console.Clear();
+        Console.WriteLine("Login Menu\n");
+
         Console.WriteLine("Email");
-        email = Console.ReadLine()!;
+        string email = Console.ReadLine()!;
 
         Console.WriteLine("Password");
-        password = Console.ReadLine()!;
+        string password = Console.ReadLine()!;
 
         // Verifierar correct information
 
         // Hoppa till nästa meny utan switch
+
+        ProductMenu prodMenu = new();
+
+        prodMenu.Display();
     }
 
     public override void Undo()

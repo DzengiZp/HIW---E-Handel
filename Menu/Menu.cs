@@ -7,7 +7,7 @@ public abstract class Menu
         commands.Add(command);
     }
 
-    public void ExecuteCommand(string input)
+    public void ExecuteCommand(int input)
     {
         foreach (Command c in commands)
         {
@@ -21,13 +21,3 @@ public abstract class Menu
 
     public abstract void Display();
 }
-
-
-
-
-/*
-
-    Display menu
-    Execute commands
-
-*/
