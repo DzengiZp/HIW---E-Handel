@@ -1,9 +1,25 @@
 ﻿namespace Grupparbete;
 
-class Program
+class Program : Menu
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        LoginCommand loginCommand = new LoginCommand();
+        loginCommand.Execute();
+    }
+
+    public override void Display()
+    {
+        throw new NotImplementedException();
     }
 }
+
+/*
+
+Account
+    -Login
+    -Register
+Product
+Cart
+
+*/
