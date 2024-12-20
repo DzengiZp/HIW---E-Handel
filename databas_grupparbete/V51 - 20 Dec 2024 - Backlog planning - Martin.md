@@ -14,6 +14,14 @@ Admin Login - 11:14
 Admin Register - 11:23
 Help Menu - 11:59
 
+**Lunch** *12:05*
+**Back from lunch** *13:10*
+
+
+
+
+
+
 ___
 ### Basics:
 
@@ -53,3 +61,6 @@ Improvements:
 ___
 End time: ???
 Dzengiz, Jimmy, Martin and Tony.
+
+
+![[Pasted image 20241220132315.png]]

@@ -5,6 +5,7 @@ public class MainMenu : Menu
         AddCommand(new RegisterCommand());
         AddCommand(new LoginCommand());
         AddCommand(new ExitCommand());
+        AddCommand(new RegisterAdminCommand());
     }
 
     public override void Title()
