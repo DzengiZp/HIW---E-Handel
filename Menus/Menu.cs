@@ -1,6 +1,6 @@
 public abstract class Menu
 {
-    List<Command> commands = new List<Command>();
+    public List<Command> commands { get; private set; } = new List<Command>();
 
     public void AddCommand(Command command)
     {
@@ -19,5 +19,16 @@ public abstract class Menu
         }
     }
 
-    public abstract void Display();
+    public virtual void Display()
+    {
+        Console.Clear();
+
+        Title();
+        foreach (Command command in commands)
+        {
+            Console.WriteLine($"\t{command.Choice}. {command.CommandName}");
+        }
+    }
+
+    public abstract void Title();
 }

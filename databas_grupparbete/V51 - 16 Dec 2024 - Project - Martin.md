@@ -1,4 +1,4 @@
-**Vecka 51 - 16 Dec 2024**
+Start time: 18:10
 ___
 ### Sprint Schedule
 
@@ -18,8 +18,8 @@ v03 Dzengiz
 
 ___
 # App: E-handel
-#### Vad säljer vi?
-Säljer proteinbars
+#### What are we selling?
+Protein bars
 
 Product name: HIW (Health is wealth)
 ## **Basics:**
@@ -28,7 +28,7 @@ Product name: HIW (Health is wealth)
 - [ ] Password
 - [ ] First name
 - [ ] Surname
-- [ ] Adress
+- [ ] Address
 - [ ] City
 - [ ] Zip-code
 - [ ] Country
@@ -68,5 +68,7 @@ ___
 Top sellers
 Voucher
 Down payment
-Autofill
+Auto fill
 Shipping cost
+
+End time:  19:00

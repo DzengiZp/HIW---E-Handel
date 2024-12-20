@@ -5,7 +5,6 @@ class LoginCommand : Command
 
     public override void Execute()
     {
-        Console.Clear();
         Console.WriteLine("Login Menu\n");
 
         Console.WriteLine("Email");
@@ -16,11 +15,8 @@ class LoginCommand : Command
 
         // Verifierar correct information
 
-        // Hoppa till nästa meny utan switch
-
-        ProductMenu prodMenu = new();
-
-        prodMenu.Display();
+        ProductMenu productMenu = new();
+        productMenu.Display();
     }
 
     public override void Undo()
